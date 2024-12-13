@@ -8,6 +8,7 @@
     text-decoration: none;
     list-style: none;
 }
+/* Media */
 
 header {
     position: fixed;
@@ -47,7 +48,7 @@ header {
 }
 
 .leftSection button {
-    padding: 3px 10px;
+    padding: 5px 15px;
     border-radius: 4px;
 }
 
@@ -55,4 +56,8 @@ header {
     background-color: #df175f;
     color: white;
     opacity: 0.8;
+}
+
+#hamburger {
+    display: none;
 }
