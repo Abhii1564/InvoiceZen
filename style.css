@@ -8,6 +8,7 @@
     text-decoration: none;
     list-style: none;
 }
+
 /* Media */
 
 header {
@@ -60,4 +61,64 @@ header {
 
 #hamburger {
     display: none;
+}
+
+/* Login page */
+.loginMain-Section {
+    top: 12vh;
+    height: 80vh;
+    width: 35%;
+    background-color: rgb(236, 227, 227);
+    position: absolute;
+    border-radius: 8.5px;
+    left: 35vw;
+
+}
+
+.loginMain-Section h3 {
+    text-align: center;
+    justify-content: center;
+    margin: 2rem;
+    font-size: 1.5rem;
+}
+
+.loginMain-Section button {
+    padding: 10px 8vw;
+    margin: 50px;
+    border-radius: 5px;
+    border: black;
+    cursor: pointer;
+}
+
+.btn:hover {
+    border: 0.5px solid blueviolet;
+}
+
+#G {
+    margin: 3.5px;
+}
+
+form label {
+    margin: 41px;
+
+}
+
+form input {
+    padding: 5px 8vw;
+    margin: 10px;
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    margin-left: 2.7vw;
+}
+
+form span {
+    color: red;
+    margin: -40px;
+}
+
+#f-p {
+    margin: 40px;
+    cursor: pointer;
+    color: black;
 }

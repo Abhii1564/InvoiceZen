@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,20 +9,37 @@
     <link rel="stylesheet" href="style.css">
 
 </head>
+
 <body>
-    <main>
+    <header>
+        <div class="navBar" style="background-color: white;">
+            <div class="logo"></div>
+            <div class="leftSection">
+                <ul>
+                    <li><a href="#home" style="color: black;">Home</a></li>
+                    <li><a href="#support" style="color: black;">Support</a></li>
+                    <button id="btn"><a href="#" target="_blank" style="color: black;">Register</a></button>
+
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="loginMain-Section" id="">
         <h3 id="loginHeading">Login to your InvoiceZen account</h3>
-        <button type="submit"><i class="fa-brands fa-google"></i>Sign in with Google</button>
-        <form action="#" method="post">
-            <label for="userEmail">Email</label><span>*</span><br>
-            <input type="text"  id="userEmail" required ><br>
+        <button type="submit" class="btn"><i class="fa-brands fa-google" id="G"></i>Sign in with Google</button>
+        <form action="#" method="post" id="login-form">
+            <label for="userEmail">Email</label><span>*</span>
+            <input type="email" id="userEmail" required>
             <label for="userPassword">Password</label><span>*</span>
-            <input type="password"  id="userPassword" required>
-            <p><a href="#"></a>Forgot password?</p>
-            <button type="submit">Login and Continue</button>
-            <p>Having issues logging in?<a href=""> Click here</a></p>
-            <p>Don't have an account? <a href="">Sign up now</a></p>
+            <input type="password" id="userPassword" required>
+            <p><a href="#" id="f-p">Forgot password?</a></p>
+            <button type="submit"><i class="fa-solid fa-right-to-bracket id " id="G"></i>Login and Continue</button>
+            <div class="login-links">
+                <p>Having issues logging in?<a href=""> Click here</a></p>
+                <p>Don't have an account? <a href="">Sign up now</a></p>
+            </div>
         </form>
     </main>
 </body>
+
 </html>
